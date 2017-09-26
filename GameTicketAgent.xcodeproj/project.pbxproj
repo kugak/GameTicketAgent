@@ -12,6 +12,8 @@
 		3024E2411F79E19400C3EEC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3024E23F1F79E19400C3EEC5 /* Main.storyboard */; };
 		3024E2431F79E19400C3EEC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3024E2421F79E19400C3EEC5 /* Assets.xcassets */; };
 		3024E2461F79E19400C3EEC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3024E2441F79E19400C3EEC5 /* LaunchScreen.storyboard */; };
+		3024E2521F79E31100C3EEC5 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024E2511F79E31100C3EEC5 /* WebViewController.swift */; };
+		3024E2541F79E32200C3EEC5 /* TeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3024E2531F79E32200C3EEC5 /* TeamsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3024E2421F79E19400C3EEC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3024E2451F79E19400C3EEC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3024E2471F79E19400C3EEC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3024E2511F79E31100C3EEC5 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		3024E2531F79E32200C3EEC5 /* TeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,48 @@
 		3024E23A1F79E19400C3EEC5 /* GameTicketAgent */ = {
 			isa = PBXGroup;
 			children = (
-				3024E23B1F79E19400C3EEC5 /* AppDelegate.swift */,
-				3024E23D1F79E19400C3EEC5 /* ViewController.swift */,
-				3024E23F1F79E19400C3EEC5 /* Main.storyboard */,
-				3024E2421F79E19400C3EEC5 /* Assets.xcassets */,
-				3024E2441F79E19400C3EEC5 /* LaunchScreen.storyboard */,
+				3024E2501F79E1D000C3EEC5 /* ViewControllers */,
+				3024E24F1F79E1C700C3EEC5 /* SpecialClasses */,
+				3024E24E1F79E1BE00C3EEC5 /* StoryBoards */,
+				3024E24D1F79E1AB00C3EEC5 /* Images */,
 				3024E2471F79E19400C3EEC5 /* Info.plist */,
 			);
 			path = GameTicketAgent;
+			sourceTree = "<group>";
+		};
+		3024E24D1F79E1AB00C3EEC5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3024E2421F79E19400C3EEC5 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3024E24E1F79E1BE00C3EEC5 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				3024E23F1F79E19400C3EEC5 /* Main.storyboard */,
+				3024E2441F79E19400C3EEC5 /* LaunchScreen.storyboard */,
+				3024E2511F79E31100C3EEC5 /* WebViewController.swift */,
+				3024E2531F79E32200C3EEC5 /* TeamsViewController.swift */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		3024E24F1F79E1C700C3EEC5 /* SpecialClasses */ = {
+			isa = PBXGroup;
+			children = (
+				3024E23B1F79E19400C3EEC5 /* AppDelegate.swift */,
+			);
+			path = SpecialClasses;
+			sourceTree = "<group>";
+		};
+		3024E2501F79E1D000C3EEC5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3024E23D1F79E19400C3EEC5 /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +175,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3024E23E1F79E19400C3EEC5 /* ViewController.swift in Sources */,
+				3024E2541F79E32200C3EEC5 /* TeamsViewController.swift in Sources */,
+				3024E2521F79E31100C3EEC5 /* WebViewController.swift in Sources */,
 				3024E23C1F79E19400C3EEC5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
